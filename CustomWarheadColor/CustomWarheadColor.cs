@@ -18,6 +18,7 @@ namespace CustomWarheadColor
             Handler = new CustomWarheadColorEventHandler(this);
 
             Exiled.Events.Handlers.Warhead.Starting += Handler.RunWhenWarheadIsStarting;
+            Exiled.Events.Handlers.Warhead.Detonated += Handler.RunWhenWarheadHasDetonated;
         }
 
         public override void OnDisabled()
@@ -25,6 +26,7 @@ namespace CustomWarheadColor
             base.OnDisabled();
 
             Exiled.Events.Handlers.Warhead.Starting -= Handler.RunWhenWarheadIsStarting;
+            Exiled.Events.Handlers.Warhead.Detonated -= Handler.RunWhenWarheadHasDetonated;
             Handler = null;
         }
     }
