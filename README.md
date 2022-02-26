@@ -47,6 +47,10 @@ For RGB Codes just use the Colorpicker from Google [Google Colorpicker](https://
 # Bugs and Suggestions
 If you found a Bug or want to suggest something please do that on the Exiled Discord and ping SoraCént#0001
 
+# Known Bugs:
+- If you start the Warhead immediately after the Round has started the Server is crashing. So wait a few Seconds before starting the Warhead.
+https://www.youtube.com/watch?v=r5tr0rOmy5A
+
 # Screenshots
 ![Screenshot 1](https://soracent.de/resourcen/pics/github/customwarheadcolor/screen1.jpg)
 ![Screenshot 2](https://soracent.de/resourcen/pics/github/customwarheadcolor/screen2.jpg)
